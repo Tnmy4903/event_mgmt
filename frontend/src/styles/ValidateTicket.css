@@ -1,0 +1,60 @@
+/* ValidateTicket.css */
+
+.validate-ticket-wrapper {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .validate-ticket-wrapper h2 {
+    font-size: 1.8rem;
+    color: #1f2937;
+    margin-bottom: 1.2rem;
+  }
+  
+  #qr-reader {
+    margin: 0 auto;
+    width: 320px;
+    max-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px dashed #9ca3af;
+    padding: 1rem;
+    background-color: #f9fafb;
+  }
+  
+  .status-box {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    border-left: 6px solid;
+  }
+  
+  .status-box.valid {
+    border-color: #10b981;
+    color: #065f46;
+    background-color: #ecfdf5;
+  }
+  
+  .status-box.invalid {
+    border-color: #ef4444;
+    color: #991b1b;
+    background-color: #fef2f2;
+  }
+  
+  .status-box p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .status-box .checked-in-warning {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #b45309;
+  }
+  

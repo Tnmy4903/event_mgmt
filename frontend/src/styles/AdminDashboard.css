@@ -1,0 +1,67 @@
+.admin-dashboard {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admin-dashboard h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .event-list, .user-list {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .event-card, .user-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .event-card:hover, .user-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .event-card button,
+  .user-card button {
+    margin-top: 0.8rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event-card button.approve {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .event-card button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .event-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .event-card p, .user-card p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  

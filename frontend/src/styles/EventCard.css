@@ -1,0 +1,75 @@
+/* Container styling */
+.event-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 16px -2px;
+  max-width: 600px;
+  transition: transform 0.2s ease;
+  border: 1px solid #eaeaea;
+}
+
+/* Event title */
+.event-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+/* Event info */
+.event-card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.event-card strong {
+  color: #333;
+}
+
+/* Action buttons */
+.event-actions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.event-actions button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Button styles */
+.btn-approve {
+  background-color: #27ae60;
+  color: white;
+}
+
+.btn-approve:hover {
+  background-color: #1e874b;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.btn-book {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn-book:hover {
+  background-color: #21618c;
+}
